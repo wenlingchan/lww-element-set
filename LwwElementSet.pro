@@ -9,3 +9,6 @@ SOURCES += main.cpp \
 
 HEADERS += \
     lwwelementset.h
+
+DISTFILES += \
+    README.md
