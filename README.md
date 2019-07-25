@@ -1,11 +1,11 @@
-#LLW-Element-Set Implementation
+# LLW-Element-Set Implementation
 
 This project is a C++ implementation of the LLW-Element-Set (Last-Write-Wins-Element-Set) CRDT (Conflict-free Replicated Data Type).
 The LLW-Element-Set is defined in ```lwwelementset.h``` and ```lwwelementset.cpp```.
 The test cases are defined in ```test.cpp```. There are a simple test case for preliminary testing and a random test for massive random testing.
 The ```main.cpp``` calls the test cases.
 
-##Build
+## Build
 
 ```bash
 cd /path/to/lww-element-set-master/
@@ -13,13 +13,13 @@ qmake -makefile
 make
 ```
 
-##Run
+## Run
 
 ```bash
 ./LwwElementSet
 ```
 
-##Output
+## Output
 
 The output should be like this:
 
